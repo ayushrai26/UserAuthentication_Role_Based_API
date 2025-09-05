@@ -85,23 +85,27 @@ DELETE /admin/delete-user/:id – Delete a user by ID (admin only)
 
 # Installation
 
-Clone the repository:
+-> Clone the repository:
 
 git clone <repo-url>
 
-
-Install dependencies:
+-> Install dependencies:
 
 npm install
 
 
-Create a .env file with the following variables:
+-> Create a .env file with the following variables:
 
 MONGO_URI=<your_mongodb_connection_string>
+
 JWT_SECRET_ACCESS_TOKEN=<your_access_token_secret>
+
 JWT_SECRET_REFRESH_TOKEN=<your_refresh_token_secret>
 
 
 Start the server:
 
 npm run start
+
+## Live Demo
+[Click here to try the User Authentication API](https://userauthentication-role-based-api.onrender.com)
